@@ -1,0 +1,306 @@
+Web
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>SEHATIN - Solusi Lengkap Medical Check Up</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#eef6ff;
+color:#222;
+}
+
+.navbar{
+background:white;
+padding:18px 6%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+flex-wrap:wrap;
+box-shadow:0 2px 10px rgba(0,0,0,.08);
+}
+
+.logo h1{
+color:#0B4EA2;
+font-size:42px;
+line-height:1;
+}
+
+.logo p{
+font-size:14px;
+color:#555;
+}
+
+.menu{
+display:flex;
+gap:25px;
+}
+
+.menu a{
+text-decoration:none;
+color:#222;
+font-weight:500;
+}
+
+.contact{
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.contact a{
+text-decoration:none;
+color:#0B4EA2;
+font-weight:600;
+}
+
+.hero{
+padding:60px 6%;
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:40px;
+flex-wrap:wrap;
+}
+
+.hero-left{
+flex:1;
+min-width:320px;
+}
+
+.hero-left h2{
+font-size:62px;
+line-height:1.1;
+color:#0B4EA2;
+margin-bottom:15px;
+}
+
+.hero-left h3{
+font-size:28px;
+margin-bottom:15px;
+}
+
+.hero-left p{
+font-size:18px;
+margin-bottom:30px;
+max-width:600px;
+}
+
+.button-group{
+display:flex;
+gap:15px;
+flex-wrap:wrap;
+}
+
+.btn{
+padding:14px 28px;
+border-radius:10px;
+text-decoration:none;
+font-weight:600;
+}
+
+.btn-wa{
+background:#25D366;
+color:white;
+}
+
+.btn-mail{
+background:#0B4EA2;
+color:white;
+}
+
+.hero-right{
+flex:1;
+min-width:320px;
+}
+
+.hero-right img{
+width:100%;
+border-radius:20px;
+box-shadow:0 10px 30px rgba(0,0,0,.15);
+}
+
+.section{
+padding:60px 6%;
+}
+
+.section-title{
+text-align:center;
+margin-bottom:40px;
+}
+
+.section-title h2{
+font-size:42px;
+color:#0B4EA2;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:18px;
+box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+.card h3{
+color:#0B4EA2;
+margin-bottom:10px;
+}
+
+.footer{
+background:#0B4EA2;
+color:white;
+padding:50px 6%;
+text-align:center;
+}
+
+.footer a{
+color:white;
+text-decoration:none;
+}
+
+.whatsapp-float{
+position:fixed;
+right:20px;
+bottom:20px;
+background:#25D366;
+color:white;
+text-decoration:none;
+padding:15px 22px;
+border-radius:50px;
+font-weight:600;
+box-shadow:0 10px 20px rgba(0,0,0,.2);
+}
+
+@media(max-width:768px){
+
+.hero-left h2{
+font-size:42px;
+}
+
+.navbar{
+gap:20px;
+}
+
+.menu{
+width:100%;
+justify-content:center;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="navbar">
+
+<div class="logo">
+<h1>SEHATIN</h1>
+<p>Solusi Lengkap Medical Check Up</p>
+</div>
+
+<div class="menu">
+<a href="#">Beranda</a>
+<a href="#layanan">Layanan</a>
+<a href="#kontak">Kontak</a>
+</div>
+
+<div class="contact">
+<a href="https://wa.me/628119889082" target="_blank">
+?? 08119889082
+</a>
+
+<a href="mailto:hasil.sewamcu@gmail.com">
+? hasil.sewamcu@gmail.com
+</a>
+</div>
+
+</div>
+
+<section class="hero">
+
+<div class="hero-left">
+
+<h2>SEHATIN</h2>
+
+<h3>
+One Stop Solution Medical Check Up
+untuk Perusahaan & Klinik
+</h3>
+
+<p>
+Menyediakan rental alat kesehatan,
+portable rontgen, jasa laboratorium,
+sekat ruang pemeriksaan, kendaraan MCU,
+dan support kebutuhan Medical Check Up
+secara profesional.
+</p>
+
+<div class="button-group">
+
+<a class="btn btn-wa"
+href="https://wa.me/628119889082"
+target="_blank">
+Chat WhatsApp
+</a>
+
+<a class="btn btn-mail"
+href="mailto:hasil.sewamcu@gmail.com">
+Kirim Email
+</a>
+
+</div>
+
+</div>
+
+<div class="hero-right">
+<img src="foto1-sehatin.jpeg" alt="SEHATIN">
+</div>
+
+</section>
+
+<section class="section" id="layanan">
+
+<div class="section-title">
+<h2>Layanan Kami</h2>
+</div>
+
+<div class="cards">
+
+<div class="card">
+<h3>Rental Alat Kesehatan</h3>
+<p>EKG, Spirometer, Audiometer dan Treadmill Test.</p>
+</div>
+
+<div class="card">
+<h3>Portable Rontgen</h3>
+<p>Layanan rontgen mobile untuk kebutuhan MCU onsite.</p>
+</div>
+
+<div class="card">
+<h3>Jasa Laboratorium</h3>
+<p>Pemeriksaan darah, urine, narkoba dan medical screening.</p>
+</div>
+
+<div class="card">
+<h3>Sekat Pemeriksaan</h3>
